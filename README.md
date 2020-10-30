@@ -1,1 +1,1 @@
-# Coursera_Capstone_Munich
+# Capstone_Project_Munich
