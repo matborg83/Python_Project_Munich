@@ -11,7 +11,6 @@ In this report, it is expected that investors, consider, among others, the densi
 
 ## Data section 
 
-Webscrapping 
 The report contains the following data:
 
 •	 “Bayern Postal Codes” from geonames.org[2] using Pandas library webscrapping function panda.read_html.
