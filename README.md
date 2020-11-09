@@ -19,12 +19,8 @@ The report contains the following data:
 •	 “Postal Codes in Munich” [4] from official Munich website imported into Github project’s repository.
 •	Foursquare locations API to collect all venues in Munich
 
-
-# Dataset 2 in Notebook contains combined dataset temp_1 and temp_2 (“Average rent of apartments in Munich…”  and “Postal Codes in Munich”). 
-#Ten districts were missing in temp_1 and will be dropped in temp_2 (example: Moosach, Obergiesing).
-# As a result 78 Postal code out of 128 contain rent average prices.
-# We could have merge the monthly rent price from "Munich" to the 10 missing districts but it would be rather inaccurate to do so.
-# Instead beautiful soup could be used to scrap apartment websites in Munich and find the missing average rents for the missing districts.
+Dataset 2 in Notebook contains combined dataset temp_1 and temp_2 (“Average rent of apartments in Munich…”  and “Postal Codes in Munich”). Ten districts were missing in temp_1 and will be dropped in temp_2 (example: Moosach, Obergiesing). As a result 78 Postal code out of 128 contain rent average prices.
+We could have merge the monthly rent price from "Munich" to the 10 missing districts but it would be rather inaccurate to do so. Instead beautiful soup could be used to scrap apartment websites in Munich and find the missing average rents for the missing districts.
 
 
 References:
