@@ -15,8 +15,11 @@ Webscrapping
 The report contains the following data:
 
 •	 “Bayern Postal Codes” from geonames.org[2] using Pandas library webscrapping function panda.read_html.
+
 •	 “Average rent of apartments in Munich, Germany in the first half of 2019, by district”[3] Excel CSV document downloaded from Statista and imported into Github project’s repository.
+
 •	 “Postal Codes in Munich” [4] from official Munich website imported into Github project’s repository.
+
 •	Foursquare locations API to collect all venues in Munich
 
 Dataset 2 in Notebook contains combined dataset temp_1 and temp_2 (“Average rent of apartments in Munich…”  and “Postal Codes in Munich”). Ten districts were missing in temp_1 and will be dropped in temp_2 (example: Moosach, Obergiesing). As a result 78 Postal code out of 128 contain rent average prices.
