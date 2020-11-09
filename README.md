@@ -6,7 +6,7 @@
 
 Munich is the third-largest city in Germany with about 1.56 million inhabitant. It is divided into 25 districts  and it has the most populated density per km2 in Germany (4,500 people per km2 ). Together with London, Paris and Berlin, the Munich property market ranks as one of the most important in Europe. As in 2020 demand exceeded available property, Munich remain Europe's favourite locations among investors [1].  
 
-In this report, it is expected that investors, consider, among others, the density of social places  and the average price for monthly rents for the district. Based on these two factors, Munich’s district will be segmented and clustered using Python and k-means machine learning. The report will present summary tables and the clustered districts plotted on a map so investors can make better informed decisions. 
+In this report, it is expected that investors, consider, among others, the density of social places  and the average price for monthly rents for the district. Based on these two factors, Munich’s districts will be segmented and clustered using Python and k-means machine learning. The report will show summary tables and the plot of clustered districts and Munich map. Investors will be able to make better decisions based on the below analyses.
 
 
 ## Data section 
@@ -21,7 +21,7 @@ The report contains the following data:
 
 •	Foursquare locations API to collect all venues in Munich
 
-Dataset 2 in Notebook contains combined dataset temp_1 and temp_2 (“Average rent of apartments in Munich…”  and “Postal Codes in Munich”). Ten districts were missing in temp_1 and will be dropped in temp_2 (example: Moosach, Obergiesing). As a result 78 Postal code out of 128 contain rent average prices.
+Dataset 2 in Notebook contains combined dataset temp_1 and temp_2 (“Average rent of apartments in Munich…”  and “Postal Codes in Munich” - see main code). Ten districts were missing in temp_1 and will be dropped in temp_2 (example: Moosach, Obergiesing). As a result 78 Postal codes out of 128 contain rent average prices.
 We could have merge the monthly rent price from "Munich" to the 10 missing districts but it would be rather inaccurate to do so. Instead beautiful soup could be used to scrap apartment websites in Munich and find the missing average rents for the missing districts.
 
 
